@@ -20,9 +20,9 @@ package ir.mahdi.mzip.rar.unpack;
 import java.io.IOException;
 import java.util.Arrays;
 
-import ir.mahdi.archive.Rar.exception.RarException;
-import ir.mahdi.archive.Rar.unpack.decode.Compress;
-import ir.mahdi.archive.Rar.unpack.vm.BitInput;
+import ir.mahdi.mzip.rar.exception.RarException;
+import ir.mahdi.mzip.rar.unpack.decode.Compress;
+import ir.mahdi.mzip.rar.unpack.vm.BitInput;
 
 
 public abstract class Unpack15 extends BitInput {

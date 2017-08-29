@@ -30,27 +30,27 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import ir.mahdi.archive.Rar.exception.RarException;
-import ir.mahdi.archive.Rar.exception.RarException.RarExceptionType;
-import ir.mahdi.archive.Rar.impl.FileVolumeManager;
-import ir.mahdi.archive.Rar.io.IReadOnlyAccess;
-import ir.mahdi.archive.Rar.rarfile.AVHeader;
-import ir.mahdi.archive.Rar.rarfile.BaseBlock;
-import ir.mahdi.archive.Rar.rarfile.BlockHeader;
-import ir.mahdi.archive.Rar.rarfile.CommentHeader;
-import ir.mahdi.archive.Rar.rarfile.EAHeader;
-import ir.mahdi.archive.Rar.rarfile.EndArcHeader;
-import ir.mahdi.archive.Rar.rarfile.FileHeader;
-import ir.mahdi.archive.Rar.rarfile.MacInfoHeader;
-import ir.mahdi.archive.Rar.rarfile.MainHeader;
-import ir.mahdi.archive.Rar.rarfile.MarkHeader;
-import ir.mahdi.archive.Rar.rarfile.ProtectHeader;
-import ir.mahdi.archive.Rar.rarfile.SignHeader;
-import ir.mahdi.archive.Rar.rarfile.SubBlockHeader;
-import ir.mahdi.archive.Rar.rarfile.UnixOwnersHeader;
-import ir.mahdi.archive.Rar.rarfile.UnrarHeadertype;
-import ir.mahdi.archive.Rar.unpack.ComprDataIO;
-import ir.mahdi.archive.Rar.unpack.Unpack;
+import ir.mahdi.mzip.rar.exception.RarException;
+import ir.mahdi.mzip.rar.exception.RarException.RarExceptionType;
+import ir.mahdi.mzip.rar.impl.FileVolumeManager;
+import ir.mahdi.mzip.rar.io.IReadOnlyAccess;
+import ir.mahdi.mzip.rar.rarfile.AVHeader;
+import ir.mahdi.mzip.rar.rarfile.BaseBlock;
+import ir.mahdi.mzip.rar.rarfile.BlockHeader;
+import ir.mahdi.mzip.rar.rarfile.CommentHeader;
+import ir.mahdi.mzip.rar.rarfile.EAHeader;
+import ir.mahdi.mzip.rar.rarfile.EndArcHeader;
+import ir.mahdi.mzip.rar.rarfile.FileHeader;
+import ir.mahdi.mzip.rar.rarfile.MacInfoHeader;
+import ir.mahdi.mzip.rar.rarfile.MainHeader;
+import ir.mahdi.mzip.rar.rarfile.MarkHeader;
+import ir.mahdi.mzip.rar.rarfile.ProtectHeader;
+import ir.mahdi.mzip.rar.rarfile.SignHeader;
+import ir.mahdi.mzip.rar.rarfile.SubBlockHeader;
+import ir.mahdi.mzip.rar.rarfile.UnixOwnersHeader;
+import ir.mahdi.mzip.rar.rarfile.UnrarHeadertype;
+import ir.mahdi.mzip.rar.unpack.ComprDataIO;
+import ir.mahdi.mzip.rar.unpack.Unpack;
 
 
 public class Archive implements Closeable {

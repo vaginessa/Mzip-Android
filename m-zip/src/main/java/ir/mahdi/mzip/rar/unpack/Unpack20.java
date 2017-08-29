@@ -20,16 +20,16 @@ package ir.mahdi.mzip.rar.unpack;
 import java.io.IOException;
 import java.util.Arrays;
 
-import ir.mahdi.archive.Rar.exception.RarException;
-import ir.mahdi.archive.Rar.unpack.decode.AudioVariables;
-import ir.mahdi.archive.Rar.unpack.decode.BitDecode;
-import ir.mahdi.archive.Rar.unpack.decode.Compress;
-import ir.mahdi.archive.Rar.unpack.decode.Decode;
-import ir.mahdi.archive.Rar.unpack.decode.DistDecode;
-import ir.mahdi.archive.Rar.unpack.decode.LitDecode;
-import ir.mahdi.archive.Rar.unpack.decode.LowDistDecode;
-import ir.mahdi.archive.Rar.unpack.decode.MultDecode;
-import ir.mahdi.archive.Rar.unpack.decode.RepDecode;
+import ir.mahdi.mzip.rar.exception.RarException;
+import ir.mahdi.mzip.rar.unpack.decode.AudioVariables;
+import ir.mahdi.mzip.rar.unpack.decode.BitDecode;
+import ir.mahdi.mzip.rar.unpack.decode.Compress;
+import ir.mahdi.mzip.rar.unpack.decode.Decode;
+import ir.mahdi.mzip.rar.unpack.decode.DistDecode;
+import ir.mahdi.mzip.rar.unpack.decode.LitDecode;
+import ir.mahdi.mzip.rar.unpack.decode.LowDistDecode;
+import ir.mahdi.mzip.rar.unpack.decode.MultDecode;
+import ir.mahdi.mzip.rar.unpack.decode.RepDecode;
 
 
 public abstract class Unpack20 extends Unpack15 {

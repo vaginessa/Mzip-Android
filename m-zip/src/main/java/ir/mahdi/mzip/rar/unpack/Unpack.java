@@ -23,14 +23,14 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Vector;
 
-import ir.mahdi.archive.Rar.exception.RarException;
-import ir.mahdi.archive.Rar.unpack.decode.Compress;
-import ir.mahdi.archive.Rar.unpack.ppm.BlockTypes;
-import ir.mahdi.archive.Rar.unpack.ppm.ModelPPM;
-import ir.mahdi.archive.Rar.unpack.ppm.SubAllocator;
-import ir.mahdi.archive.Rar.unpack.vm.BitInput;
-import ir.mahdi.archive.Rar.unpack.vm.RarVM;
-import ir.mahdi.archive.Rar.unpack.vm.VMPreparedProgram;
+import ir.mahdi.mzip.rar.exception.RarException;
+import ir.mahdi.mzip.rar.unpack.decode.Compress;
+import ir.mahdi.mzip.rar.unpack.ppm.BlockTypes;
+import ir.mahdi.mzip.rar.unpack.ppm.ModelPPM;
+import ir.mahdi.mzip.rar.unpack.ppm.SubAllocator;
+import ir.mahdi.mzip.rar.unpack.vm.BitInput;
+import ir.mahdi.mzip.rar.unpack.vm.RarVM;
+import ir.mahdi.mzip.rar.unpack.vm.VMPreparedProgram;
 
 
 public final class Unpack extends Unpack20 {

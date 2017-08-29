@@ -21,7 +21,7 @@ package ir.mahdi.mzip.rar.rarfile;
 import java.util.Calendar;
 import java.util.Date;
 
-import ir.mahdi.archive.Rar.io.Raw;
+import ir.mahdi.mzip.rar.io.Raw;
 
 
 public class FileHeader extends BlockHeader {

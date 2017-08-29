@@ -18,7 +18,7 @@ package ir.mahdi.mzip.rar;
 
 import java.io.IOException;
 
-import ir.mahdi.archive.Rar.io.IReadOnlyAccess;
+import ir.mahdi.mzip.rar.io.IReadOnlyAccess;
 
 
 public interface Volume {

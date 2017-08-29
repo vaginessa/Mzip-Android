@@ -20,8 +20,8 @@ package ir.mahdi.mzip.rar.unpack.vm;
 import java.util.List;
 import java.util.Vector;
 
-import ir.mahdi.archive.Rar.crc.RarCRC;
-import ir.mahdi.archive.Rar.io.Raw;
+import ir.mahdi.mzip.rar.crc.RarCRC;
+import ir.mahdi.mzip.rar.io.Raw;
 
 
 public class RarVM extends BitInput {

@@ -20,8 +20,8 @@ package ir.mahdi.mzip.rar.unpack.ppm;
 import java.io.IOException;
 import java.util.Arrays;
 
-import ir.mahdi.archive.Rar.exception.RarException;
-import ir.mahdi.archive.Rar.unpack.Unpack;
+import ir.mahdi.mzip.rar.exception.RarException;
+import ir.mahdi.mzip.rar.unpack.Unpack;
 
 
 public class ModelPPM {

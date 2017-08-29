@@ -17,7 +17,7 @@
  */
 package ir.mahdi.mzip.rar.unpack.ppm;
 
-import ir.mahdi.archive.Rar.io.Raw;
+import ir.mahdi.mzip.rar.io.Raw;
 
 
 public class RarNode extends Pointer {

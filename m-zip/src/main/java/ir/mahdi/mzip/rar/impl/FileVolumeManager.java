@@ -19,10 +19,10 @@ package ir.mahdi.mzip.rar.impl;
 import java.io.File;
 import java.io.IOException;
 
-import ir.mahdi.archive.Rar.Archive;
-import ir.mahdi.archive.Rar.Volume;
-import ir.mahdi.archive.Rar.VolumeManager;
-import ir.mahdi.archive.Rar.util.VolumeHelper;
+import ir.mahdi.mzip.rar.Archive;
+import ir.mahdi.mzip.rar.Volume;
+import ir.mahdi.mzip.rar.VolumeManager;
+import ir.mahdi.mzip.rar.util.VolumeHelper;
 
 
 public class FileVolumeManager implements VolumeManager {

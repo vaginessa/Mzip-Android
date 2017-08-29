@@ -19,10 +19,10 @@ package ir.mahdi.mzip.rar.impl;
 import java.io.File;
 import java.io.IOException;
 
-import ir.mahdi.archive.Rar.Archive;
-import ir.mahdi.archive.Rar.Volume;
-import ir.mahdi.archive.Rar.io.IReadOnlyAccess;
-import ir.mahdi.archive.Rar.io.ReadOnlyAccessFile;
+import ir.mahdi.mzip.rar.Archive;
+import ir.mahdi.mzip.rar.Volume;
+import ir.mahdi.mzip.rar.io.IReadOnlyAccess;
+import ir.mahdi.mzip.rar.io.ReadOnlyAccessFile;
 
 
 public class FileVolume implements Volume {

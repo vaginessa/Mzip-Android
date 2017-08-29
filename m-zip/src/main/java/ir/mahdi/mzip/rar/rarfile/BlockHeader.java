@@ -19,7 +19,7 @@
 package ir.mahdi.mzip.rar.rarfile;
 
 
-import ir.mahdi.archive.Rar.io.Raw;
+import ir.mahdi.mzip.rar.io.Raw;
 
 
 public class BlockHeader extends BaseBlock {

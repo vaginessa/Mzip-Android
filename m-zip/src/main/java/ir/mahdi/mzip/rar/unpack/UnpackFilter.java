@@ -17,7 +17,7 @@
  */
 package ir.mahdi.mzip.rar.unpack;
 
-import ir.mahdi.archive.Rar.unpack.vm.VMPreparedProgram;
+import ir.mahdi.mzip.rar.unpack.vm.VMPreparedProgram;
 
 public class UnpackFilter {
 

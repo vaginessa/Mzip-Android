@@ -5,9 +5,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import ir.mahdi.archive.Rar.exception.RarException;
-import ir.mahdi.archive.Rar.impl.FileVolumeManager;
-import ir.mahdi.archive.Rar.rarfile.FileHeader;
+import ir.mahdi.mzip.rar.exception.RarException;
+import ir.mahdi.mzip.rar.impl.FileVolumeManager;
+import ir.mahdi.mzip.rar.rarfile.FileHeader;
 
 
 public class MVTest {

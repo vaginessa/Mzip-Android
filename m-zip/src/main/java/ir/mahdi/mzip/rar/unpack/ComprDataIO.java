@@ -22,14 +22,14 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import ir.mahdi.archive.Rar.Archive;
-import ir.mahdi.archive.Rar.UnrarCallback;
-import ir.mahdi.archive.Rar.Volume;
-import ir.mahdi.archive.Rar.crc.RarCRC;
-import ir.mahdi.archive.Rar.exception.RarException;
-import ir.mahdi.archive.Rar.exception.RarException.RarExceptionType;
-import ir.mahdi.archive.Rar.io.ReadOnlyAccessInputStream;
-import ir.mahdi.archive.Rar.rarfile.FileHeader;
+import ir.mahdi.mzip.rar.Archive;
+import ir.mahdi.mzip.rar.UnrarCallback;
+import ir.mahdi.mzip.rar.Volume;
+import ir.mahdi.mzip.rar.crc.RarCRC;
+import ir.mahdi.mzip.rar.exception.RarException;
+import ir.mahdi.mzip.rar.exception.RarException.RarExceptionType;
+import ir.mahdi.mzip.rar.io.ReadOnlyAccessInputStream;
+import ir.mahdi.mzip.rar.rarfile.FileHeader;
 
 
 public class ComprDataIO {
