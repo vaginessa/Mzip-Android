@@ -18,8 +18,9 @@ Other open source projects have been used to write this library.
 .tar.xz & .txz
 .tar.lz4 & .tlz4
 .tar.sz & .tsz
-.rar
+.rar (extract only ,may you can find a method to create look ir.mahdi.mzip.rar classes)
 <br>
+
 
 # Download
 You can use Gradle:
