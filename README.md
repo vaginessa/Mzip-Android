@@ -74,7 +74,7 @@ repositories {
 }
 
 dependencies {
-  compile 'com.github.ghost1372:Mzip-Android:0.2.0'
+  compile 'com.github.ghost1372:Mzip-Android:0.3.0'
 }
 ```
 Or Maven:
@@ -92,7 +92,7 @@ Or Maven:
 <dependency>
 	    <groupId>com.github.ghost1372</groupId>
 	    <artifactId>Mzip-Android</artifactId>
-	    <version>0.2.0</version>
+	    <version>0.3.0</version>
 	</dependency>
 ```
 # How do I use MZip?
@@ -119,3 +119,6 @@ zipArchive.unzip("/sdcard/file.zip","/sdcard/folder,"");
 zipArchive.unzip("/sdcard/file.zip","/sdcard/folder,"123456 or anything you want");
 ```
 If your file does not have a password, Leave it blank.
+<br>
+Rar:
+
