@@ -1,3 +1,5 @@
+[![GitHub version](https://badge.fury.io/gh/ghost1372%2FMzip-Android.svg)](https://badge.fury.io/gh/ghost1372%2FMzip-Android)
+
 # Mzip-Android
 An Android compress and extract library support popular compression format such as rar, zip, tar, lzma
 that support android api >= 14 (may work >=9 not tested) also tested on android 7.1.1
